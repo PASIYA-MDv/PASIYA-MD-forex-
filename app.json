@@ -1,0 +1,17 @@
+{
+  "name": "PASIYA-MD-FOREX",
+  "description": "Auto Forex Market Signal WhatsApp Bot - Powered by PASIYA-MD",
+  "repository": "https://github.com/PASIYAv12/PASIYA-MD-FOREX",
+  "keywords": ["forex","bot","whatsapp","pasiya-md"],
+  "env": {
+    "OWNER_NUMBER": {"description":"Owner WhatsApp number","value":"94784548818"},
+    "ADMIN_NUMBER": {"description":"Admin WhatsApp number","value":"947666359869"},
+    "GROUP_JID": {"description":"WhatsApp Group JID","value":"(oyaage_jid_daanna)"},
+    "MONGO_URI": {"description":"MongoDB connection uri","value":""},
+    "FCS_API_KEY": {"description":"FCS API key","value":"2gddTfGcvbFGo9QnzcXtNODp"},
+    "FCS_BASE": {"description":"FCS API base url","value":"https://fcsapi.com"},
+    "TIMEZONE": {"description":"Timezone","value":"Asia/Colombo"},
+    "SIGNAL_INTERVAL_MIN": {"description":"Scheduler interval minutes","value":"15"}
+  },
+  "buildpacks": [{"url":"heroku/python"}]
+}
