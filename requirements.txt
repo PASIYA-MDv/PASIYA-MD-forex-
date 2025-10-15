@@ -1,0 +1,7 @@
+pymongo
+requests
+apscheduler
+pandas
+numpy
+python-dotenv
+ta
