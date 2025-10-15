@@ -40,6 +40,11 @@
     "SIGNAL_INTERVAL_MIN": {
       "description": "Scheduler interval minutes",
       "value": "15"
+    } 
+    "env": {
+    "WHATSAPP_SESSION": {
+        "description": "Base64 or JSON content of WhatsApp auth_info.json",
+        "value": "{\"clientID\":\"xxxxx\",\"clientToken\":\"xxxxx\"}"
     }
   },
   "buildpacks": [
